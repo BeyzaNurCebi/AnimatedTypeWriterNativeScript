@@ -1,4 +1,6 @@
-<ActionBar title="hello"></ActionBar>
-<StackLayout>
-    <Label text="hello"></Label>
+<ActionBar title="Animated Type Writer" backgroundColor="lightBlue"></ActionBar>
+<StackLayout class="p-20">
+    <Label text="Tap the button" class="h1 text-center"></Label>
+    <Button text="TAP" class="-primary" (tap)="onTap($event)"></Button>
+    <Label id="lbl" text="Hello World" class="h2 text-center"></Label>
 </StackLayout>
